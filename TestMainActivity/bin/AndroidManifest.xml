@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baofeng"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.REMOVE_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <!-- battery -->
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <!-- WIFI -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <!-- Shut down -->
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+
+    <application
+        android:name="com.baofeng.aone.LauncherApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.baofeng.test.TestMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baofeng.test.TestVolumeAndDisplayManagerActivity" />
+        <activity android:name="com.baofeng.test.TestFileManager" />
+        <activity android:name="com.baofeng.test.TestWifiActivity" />
+        <activity android:name="com.baofeng.test.TestBluetoothManagerActivity" />
+        <activity android:name="com.baofeng.test.TestDateActivity" />
+        <activity android:name="com.baofeng.test.TestFOTAActivity" />
+        <activity android:name="com.baofeng.test.TestPackageManager" />
+        <activity android:name="com.baofeng.test.TestUserProviderActivity" />
+        <activity android:name="com.baofeng.test.TestShutdownActivity"></activity>
+        <activity android:name="com.baofeng.test.TestDownloadManager" />
+    </application>
+
+</manifest>

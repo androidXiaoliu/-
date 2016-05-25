@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DownloadManagerTools</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_image">ImageRequest</string>
+    <string name="get_file">Download File</string>
+    <string name="delete">Delete DownloadFile</string>
+    <string name="getFile">get volume content</string>
+    <string name="display">Display</string>
+    <string name="OpenFile">OpenFile</string>
+    <string name="NextPage">NextPage</string>
+    <string name="DispalyManager">DispalyManager</string>
+    <string name="VolumeManager">VolumeManager</string>
+    <string name="ResourceManagerTest">ResourceManagerTest</string>
+    <string name="DownloadTest">DownloadTest</string>
+    <string name="battery">battery</string>
+    <string name="empty">No Sdcard!</string>
+    <string name="bt_open">open</string>
+    <string name="bt_close">close</string>
+    <string name="bt_scan">sacn</string>
+    <string name="bt_stop">stop</string>
+    <string name="next">next</string>
+    <string name="wifi_open">open</string>
+    <string name="wifi_close">close</string>
+    <string name="wifi_name">wifiName</string>
+    <string name="bt_bonded_name">paired</string>
+    <string name="bt_unbonded_name">unpaired</string>
+    <string name="get_date">Get Date</string>
+    <string name="get_time">Get Time</string>
+    <string name="btn_fota_start">Start</string>
+    <string name="btn_fota_pause">Pause</string>
+    <string name="btn_fota_resume">Resume</string>
+    <string name="btn_fota_cancel">Cancel</string>
+    <string name="get_status">Get Status</string>
+    <string name="query_db">Query</string>
+    <string name="update_db">Update</string>
+    <string name="hint_txt">Pls input Phone Number</string>
+    <string name="shutdown">Power Off</string>
+    <string name="download_start">start</string>
+    <string name="download_restart">restart</string>
+    <string name="download_pause">pause</string>
+    <string name="download_resume">resume</string>
+    <string name="download_cancel">Cancel</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_fota_start"/>
+    <Button
+        android:id="@+id/pause"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_fota_pause"/>
+    <Button
+        android:id="@+id/resume"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_fota_resume"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_fota_cancel"/>
+    <Button
+        android:id="@+id/get_status"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/get_status"/>
+</LinearLayout>
